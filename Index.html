@@ -1,17 +1,189 @@
 <!doctype html>
 
-<html lang="en" manifest="lecture2.manifest">
+<html lang="en">
 <head>
   <meta charset="utf-8">
-    <title>LITS WEBUI course</title>
-    <meta name="description" content="LITS WEBUI course">
+    <title>LITS WEBUI course Lecture 4</title>
+    <meta name="description" content="LITS WEBUI gaming website template">
     <meta name="author" content="Liu">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
 <body>
-    
+    <div class="center">
+        <header>
+            <form class="auth_bar">
+                <input type="text" name="login" placeholder="логин">
+                <input type="password"  name="password" placeholder="пароль">
+                <input class="gobutton" type="button" name="enter" value="ВОЙТИ">
+            </form>
+            <nav>
+                <ul class="main_navbar">
+                    <li><a href="#">ГЛАВНАЯ</a></li>
+                    <li><a href="#">О НАС</a></li>
+                    <li><a href="#">РЕКЛАМА</a></li>
+                    <li><a href="#">ПОСЛЕДНИЕ РЕКОМЕНДАЦИИ</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+                <div class="nav_title">
+                    <h1><span class="game">GAME</span>-IPHONE.RU</h1>
+                    <figure  class="nav_img" >
+                        <img src="http://dummyimage.com/583x70/000/fff" alt="top logo">
+                    </figure>
+                </div>
+                <ul class="head_navbar">
+                    <li><a href="#">НОВОСТИ</a></li>
+                    <li><a href="#">ИГРЫ</a></li>
+                    <li><a href="#">ПРОГРАММЫ</a></li>
+                    <li><a href="#">КНИГИ</a></li>
+                    <li><a href="#">ФИЛЬМЫ</a></li>
+                    <li><input type="search" name="search" placeholder="поиск"></li>
+                </ul>
+            </nav>
+            <div class="adv_section">
+                <figure class="slider_pic">
+                    <img src="http://dummyimage.com/686x262/000/fff" alt="slider image">
+                </figure>
+                <div class="slider_content">
+                    <h3>ANGRY BIRDS</h3>
+                    <h2>БОЛЬШОЕ ОБНОВЛЕНИЕ ИГРЫ ANGRY BIRDS</h2>
+                    <p>Неизвестно, как долго Angry Birds будет приносить прибыль своим создателям, но последние работают, не покладая рук. На днях вышло большое обновление игры - появился режим под названием Egg Defender.</p>
+                    <h4><a href="#">УЗНАТЬ БОЛЬШЕ</a></h4>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="news_collection">
+                <h3>НОВОСТИ</h3>
+                <div class="news_items">
+                    <div>
+                        <a href="#"><img src="http://dummyimage.com/110x110/000/fff" alt="item picture"></a>
+                        <a class="item_title" href="#">Crazy Monster Bowling - PROv1.2</a>
+                        <a class="item_categ" href="#">Игры</a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="http://dummyimage.com/110x110/000/fff" alt="item picture"></a>
+                        <a class="item_title" href="#">Crazy Monster Bowling - PROv1.2</a>
+                        <a class="item_categ" href="#">Игры</a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="http://dummyimage.com/110x110/000/fff" alt="item picture"></a>
+                        <a class="item_title" href="#">Crazy Monster Bowling - PROv1.2</a>
+                        <a class="item_categ" href="#">Игры</a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="http://dummyimage.com/110x110/000/fff" alt="item picture"></a>
+                        <a class="item_title" href="#">Crazy Monster Bowling - PROv1.2</a>
+                        <a class="item_categ" href="#">Игры</a>
+                    </div>
+                    <hr>
+                </div>
+                <div class="load_more">
+                    <a href="#">ЧИТАТЬ ВСЕ</a>
+                </div>
+            </section>
+            <article>
+                <h3>ANGRY BIRDS</h3>
+                <div class="article_meta">
+                    <p class="art_categ">Раздел:<a href="#">Игры на IPhone, IPad и IPod Touch</a></p>
+                    <p class="art_pubdate">Добавлено: <time datetime="2013-05-23" pubdate>23.05.2013</time></p>
+                </div>
+                <div class="art_entry">
+                    <figure class="art_pic">
+                        <img src="http://dummyimage.com/283x172/000/fff" alt="article image">
+                    </figure>
+                    <h4 class="art_title">ANGRY BIRDS</h4>
+                    <h4 class="art_subject">БОЛЬШОЕ ОБНОВЛЕНИЕ ИГРЫ ANGRY BIRDS</h4>
+                    <p class="art_text">Неизвестно, как долго Angry Birds будет приносить прибыль своим создателям, но последние работают, не покладая рук. На днях вышло большое обновление игры</p>
+                    <h4 class="art_btn"><a href="#">ПОДРОБНЕЕ</a></h4>
+                    <div>рейтинг</div>
+                </div>
+            </article>
+            <div class="page_navbar">
+                <ul>
+                    <li><a href="#">назад</a></li>
+                    <li><a href="#">первая</a></li>
+                    <li><a class="current_page" href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">...</a></li>
+                    <li><a href="#">последняя</a></li>
+                    <li><a href="#">вперед</a></li>
+                </ul>
+            </div>
+        </main>
+            <aside>
+                <div class="side_block">
+                    <h4 class="side_title">ПОПУЛЯРНОЕ</h4>
+                    <ul>
+                        <li><a href="#">КАМАСУТРА ДЛЯ IPONE/IPAD</a></li>
+                        <li><a href="#">КАМАСУТРА ДЛЯ IPONE/IPAD</a></li>
+                        <li><a href="#">КАМАСУТРА ДЛЯ IPONE/IPAD</a></li>
+                        <li><a href="#">КАМАСУТРА ДЛЯ IPONE/IPAD</a></li>
+                        <li><a href="#">КАМАСУТРА ДЛЯ IPONE/IPAD</a></li>
+                        <li><a href="#">КАМАСУТРА ДЛЯ IPONE/IPAD</a></li>
+                        <li><a href="#">КАМАСУТРА ДЛЯ IPONE/IPAD</a></li>
+                        <li><a href="#">КАМАСУТРА ДЛЯ IPONE/IPAD</a></li>
+                        <li><a href="#">КАМАСУТРА ДЛЯ IPONE/IPAD</a></li>
+                        <li><a href="#">КАМАСУТРА ДЛЯ IPONE/IPAD</a></li>
+                    </ul>
+                </div>
+                <!--begin top users-->
+                <div class="side_block">
+                    <h4 class="side_title">НАША ГОРДОСТЬ</h4>
+                    <div class="top_users">
+                                <img src="http://dummyimage.com/50x50/000/fff" alt="top_user_name">
+                                <p class="top_user_name">AlexMan</p>
+                                <p class="top_user_text">Неизвестно, как долго Angry Birds будет приносить прибыль своим создателям</p>
+                    </div>
+                    <div class="top_users">
+                                <img src="http://dummyimage.com/50x50/000/fff" alt="top_user_name">
+                                <p class="top_user_name">AlexMan</p>
+                                <p class="top_user_text">Неизвестно, как долго Angry Birds будет приносить прибыль своим создателям</p>
+                    </div>
+                    <div class="top_users">
+                                <img src="http://dummyimage.com/50x50/000/fff" alt="top_user_name">
+                                <p class="top_user_name">AlexMan</p>
+                                <p class="top_user_text">Неизвестно, как долго Angry Birds будет приносить прибыль своим создателям</p>
+                    </div>
+                </div>
+                <!--end top users-->
+                <!--begin adv_block-->
+                <div class="side_block">
+                    <h4 class="side_title">РЕКЛАМА</h4>
+                    <img src="http://dummyimage.com/235x323/000/fff">
+                </div>
+                <!--end adv_block-->
+                <!--begin social_block-->
+                <div class="side_block">
+                    <h4 class="side_title">СОЦИАЛЬНЫЕ СЕТИ</h4>
+                    <img src="http://dummyimage.com/235x323/000/fff">
+                </div>
+                <!--end social_block-->
+                <!--begin tag_cloud-->
+                <div class="side_block">
+                    <h4 class="side_title">ОБЛАКО ТЭГОВ</h4>
+                    <img src="http://dummyimage.com/235x323/000/fff">
+                </div>
+                <!--end tag_cloud-->
+            </aside>
+        <footer>
+            <hr>
+            <ul class="footer_navbar">
+                    <li><a href="#">ГЛАВНАЯ</a></li>
+                    <li><a href="#">О НАС</a></li>
+                    <li><a href="#">РЕКЛАМА</a></li>
+                    <li><a href="#">ПОСЛЕДНИЕ РЕКОМЕНДАЦИИ</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            <div class="footer_title">
+                    <h1><span class="game">GAME</span>-IPHONE.RU</h1>
+                    <p class="disclaimer">Все права защищены © 2013</p>
+                </div>
+        </footer>
+    </div>
 </body>
 </html>
