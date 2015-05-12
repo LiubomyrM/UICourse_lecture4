@@ -10,7 +10,7 @@ a{
     text-decoration: none;
 }
 body{
-    background-image: url(/img/background.png);
+    background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-color: #1b1b1d;
 }
@@ -75,6 +75,10 @@ nav{
     vertical-align: middle;
     font-size: 14px;
 }
+.main_navbar li a:hover, .footer_navbar li a:hover{
+    color: #9ddf00;
+}
+
 .nav_title{
     background-color: #2f2f31;
     height: 109px;
@@ -142,12 +146,11 @@ nav{
     float:left;
 }
 .slider_pic img{
+    margin-right: 17px;
     border-radius: 6px 0px 0px 0px;
 }
 .slider_content{
     padding: 17px 10px 12px 19px;
-    float:right;
-    width: 274px;
 }
 .slider_content h3{
     color: #9ddf00;
@@ -209,12 +212,12 @@ nav{
     font: 700 16px / 24px Calibri;
 }
 
-.art_categ a, .page_navbar a{
+.art_categ a, .page_navbar a, .art_comments a{
     text-decoration: underline;
     color: #9ddf00;
 }
 .article_meta p{
-    margin: 23px;
+    margin: 15px 23px 15px ;
     color: #9a9a9a;
     font: 400 12px / 16px Calibri;
     display: inline-block;
@@ -222,29 +225,37 @@ nav{
 .art_pubdate{
     float:right;
 }
+.art_categ{
+    float: left;
+}
+.art_entry{
+    display: inline-block;
+}
 .art_pic{
     margin-left: 23px;
     margin-right: 23px;
     float:left;
  }
 .art_title{
-    height: 10px;
-    display: inline-block;
     color: #9ddf00;
-    font: 700 16px / 24px Calibri;
-    margin-bottom: 14px;
+    font: 700 16px / 16px Calibri;
+    margin-bottom: 15px;
+    margin-left: 23px;
 }
 .art_subject{
-    height: 29px;
     color: #ffffff;
     font: 700 18px / 18px Calibri;
     margin-bottom: 17px;
+    margin-left: 23px;
 }
 .art_text{
-    height: 61px;
+    margin-left: 23px;
     color: #afafaf;
-    font: 400 14px / 16px Calibri;
-    margin-bottom: 12px;
+    font: 400 14px / 14px Calibri;
+    margin-bottom: 19px;
+}
+.art_btn{
+    margin-left: 23px;
 }
 .art_btn a{
     border: none;
@@ -260,6 +271,24 @@ nav{
     background: linear-gradient(180deg, #414141 0%, #363636 100%);
     color: #ffffff;
     font: 700 13px / 28px Calibri;
+}
+.art_footer{
+    margin-left: 23px;
+    margin-top: 12px;
+    height: 25px;
+}
+.art_rating, .art_comments{
+    color: #9a9a9a;
+    font: 400 12px / 16px Calibri;
+}
+.art_rating{   
+    vertical-align: top;
+    float:left;
+    margin-left: 23px;
+}
+.art_comments{
+    display: inline-block;
+    margin-left: 66px;
 }
 
 .page_navbar{
@@ -344,7 +373,7 @@ footer{
     margin-left: 23px;
     margin-right: 40px;
 }
-.footer_navbar li > a{
+.footer_navbar a{
     color: #a7a7a7;
     font: 400 14px / 24px Calibri;
 }
