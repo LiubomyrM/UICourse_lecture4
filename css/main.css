@@ -48,6 +48,10 @@ input{
     height: 24px;
     cursor:pointer;
     background: -webkit-linear-gradient(-90deg, #92cf02 0%, #78a804 100%);
+    background: -moz-linear-gradient(-90deg, #92cf02 0%, #78a804 100%);
+    background: -o-linear-gradient(-90deg, #92cf02 0%, #78a804 100%);
+    background: -ms-linear-gradient(-90deg, #92cf02 0%, #78a804 100%);
+    background: linear-gradient(180deg, #92cf02 0%, #78a804 100%);
     color: #ffffff;
     font: 700 13px / 24px Calibri;
 }
